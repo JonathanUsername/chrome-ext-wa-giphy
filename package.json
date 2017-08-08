@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "babel -w -o js/content.js js/contentEs6.js"
+    "watch": "babel --no-comments -w -o js/content.js js/contentEs6.js"
   },
   "author": "",
   "license": "ISC",

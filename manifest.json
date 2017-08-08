@@ -1,15 +1,14 @@
 {
-    "name": "Whatsapp Web Use Giphy",
-    "version": "0.0.1",
+    "name": "WA Web Use Giphy",
+    "version": "0.0.2",
     "manifest_version": 2,
-    "description": "This extension was created with the awesome extensionizr.com",
+    "description": "Use Giphy, not Tenor, for gifs in whatsapp web",
     "homepage_url": "http://extensionizr.com",
     "icons": {
         "16": "icons/icon16.png",
         "48": "icons/icon48.png",
         "128": "icons/icon128.png"
     },
-    "default_locale": "en",
     "background": {
         "scripts": [
             "src/bg/background.js"
@@ -17,7 +16,6 @@
         "persistent": false
     },
     "permissions": [
-        "contentSettings",
         "https://web.whatsapp.com/"
     ],
     "content_scripts": [{

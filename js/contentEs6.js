@@ -13,7 +13,6 @@ webpackJsonp = (...args) => {
         return orig(...args);
     }
     const parser = modules[parserIdx];
-    window.bar = parser;
     if (!parser || !parser.toString) {
         return orig(...args);
     }
