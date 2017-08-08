@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "babel --no-comments -w -o js/content.js js/contentEs6.js"
+    "watch": "babel --no-comments -w -o js/content.js js/contentEs6.js",
+    "build": "zip -r dist/ext.zip ext"
   },
   "author": "",
   "license": "ISC",
